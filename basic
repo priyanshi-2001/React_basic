@@ -34,8 +34,7 @@ render() {
   }
 }
 
-----------------------------
-Fetch an API with Loading functionality using Functional component:-
+
 import React, { useState, useEffect } from "react";
 export default function UsersData() {
   const [Users, fetchUsers] = useState([]);
